@@ -1,1 +1,10 @@
-master11
+<!-- 指定HDFS的通信地址 -->
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://localhost:9000</value>
+    </property>
+    <!-- 指定hadoop运行时产生文件的存储路径 -->
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/home/soft/hadoop/temp</value>
+    </property>
