@@ -1,10 +1,10 @@
-<!-- 指定HDFS的通信地址 -->
-    <property>
-        <name>fs.defaultFS</name>
-        <value>hdfs://localhost:9000</value>
+<property>
+    	<name>dfs.name.dir</name>
+    	<value>/home/soft/hadoop/hdfs/name</value>
+    	<description>namenode上存储hdfs名字空间元数据 </description> 
     </property>
-    <!-- 指定hadoop运行时产生文件的存储路径 -->
     <property>
-        <name>hadoop.tmp.dir</name>
-        <value>/home/soft/hadoop/temp</value>
+        <name>dfs.data.dir</name>
+        <value>/home/soft/hadoop/hdfs/data</value>
+        <description>datanode上数据块的物理存储位置</description>
     </property>
