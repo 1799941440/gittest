@@ -1,10 +1,5 @@
-<property>
-    	<name>dfs.name.dir</name>
-    	<value>/home/soft/hadoop/hdfs/name</value>
-    	<description>namenode上存储hdfs名字空间元数据 </description> 
-    </property>
+<!-- 设置hdfs副本数量 -->
     <property>
-        <name>dfs.data.dir</name>
-        <value>/home/soft/hadoop/hdfs/data</value>
-        <description>datanode上数据块的物理存储位置</description>
+        <name>dfs.replication</name>
+        <value>1</value>
     </property>
