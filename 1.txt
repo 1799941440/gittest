@@ -1,3 +1,1 @@
-ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
-cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
-chmod 0600 ~/.ssh/authorized_keys
+[{"name":"下载","downloadSource":[{"name":"酷安下载","icon":"https://static.coolapk.com/static/web/v8/img/icon.png","url":"https://www.coolapk.com/apk/com.jingdong.app.mall"},{"name":"应用宝下载","icon":"https://static.coolapk.com/static/web/v8/img/icon.png","url":"https://www.coolapk.com/apk/com.jingdong.app.mall"}]},{"name":"小说","downloadSource":[{"name":"酷安下载","icon":"https://static.coolapk.com/static/web/v8/img/icon.png","url":"https://www.coolapk.com/apk/com.jingdong.app.mall"},{"name":"应用宝下载","icon":"https://static.coolapk.com/static/web/v8/img/icon.png","url":"https://www.coolapk.com/apk/com.jingdong.app.mall"}]}]
